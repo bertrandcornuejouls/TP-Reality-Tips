@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ApplicationController">
+   <children>
+      <Pane layoutX="-1.0" layoutY="3.0" prefHeight="625.0" prefWidth="640.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="3.0">
+         <children>
+            <Label fx:id="bill" layoutX="48.0" layoutY="70.0" text="Bill" />
+            <Label fx:id="tip" layoutX="41.0" layoutY="141.0" text="Tip %" />
+            <Label fx:id="nbpeople" layoutX="28.0" layoutY="204.0" text="Nb People" />
+            <TextField fx:id="tfbill" layoutX="130.0" layoutY="66.0" />
+            <TextField fx:id="tftip" layoutX="130.0" layoutY="129.0" />
+            <TextField fx:id="tfnbpeople" layoutX="130.0" layoutY="200.0" />
+            <Button fx:id="calculate" layoutX="124.0" layoutY="261.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="42.0" prefWidth="317.0" text="Calculate" />
+            <Label fx:id="tipperson" layoutX="79.0" layoutY="370.0" text="Tip (per person)" />
+            <Label fx:id="totalperson" layoutX="82.0" layoutY="441.0" text="Total (per person)" />
+            <Label fx:id="affichage_totalperson" layoutX="227.0" layoutY="448.0" text="Label2" />
+            <Label fx:id="affichage_tipperson" layoutX="232.0" layoutY="375.0" text="Label1" />
+            <TextField fx:id="tfdate" layoutX="191.0" layoutY="523.0" />
+            <Label fx:id="isDate" layoutX="244.0" layoutY="558.0" text="Est Date" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
